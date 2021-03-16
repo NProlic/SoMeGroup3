@@ -1,0 +1,159 @@
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.page_body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    background-color: #D78E8A;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+label {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Navigation */
+
+.topnav {
+    width: 100%;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 25px 60px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nav {
+    color: #fff;
+    font-weight: 600;
+    margin-right: 24px;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 24px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    display: flex;
+}
+
+.logo-nav:hover {
+    opacity: 70%;
+}
+
+.menu-items a:hover {
+    opacity: 70%;
+}
+
+.topnav a.active {
+    text-decoration: underline;
+}
+
+.nav-button {
+    margin-left: 10px;
+    background-color: #D78E8A;
+    border: 3px solid #fff;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+
+.nav-button:hover {
+    background-color: #fff;
+    color: #D78E8A;
+}
+
+/* Form */
+
+.section {
+    padding-top: 70px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 25vw;
+    height: 25vw;
+    background-color: #fff;
+    padding: 10vw;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.form_label {
+    color: #D78E8A;
+}
+
+.submit_button {
+    background-color: #D78E8A;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 3px;
+}
+
+.submit_button:hover {
+    opacity: 70%;
+}
+
+
+.white {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 50%;
+    display:flex;
+    z-index: 1;
+}

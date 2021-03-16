@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IC.Design</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel='icon' href='media/favicon.ico' type='image/x-icon'>
+    <meta name="description" content="">
+</head>
+
+<body class="page_body">
+    <header>
+        <nav class="topnav">
+            <a class="logo-nav" href="index.html">IC.Design</a>
+            <div class="nav-right">
+                <div class="menu-items">
+                    <a href="#start">The story</a>
+                    <a href="https://portfolio.codrean.dk/">Portfolio</a>
+                    <a href="login.html">Login</a>
+                </div>
+                <a href="#contact">
+                    <div class="nav-button">CONTACT</div>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="intro">
+        <img src="media/intro-image.jpg" class="intro-img">
+        <div class="intro-right">
+            <h1>Becoming a graphic designer</h1><h2>– a story about Ioana Codrean</h2><br>
+            <a href="#start" class="cta-button">See more</a>
+        </div>
+    </div>
+
+    <div class="start" id="start">
+        <div class="start-left">
+            <h2>How it all started</h2>
+            <p>Ioana Codrean is finishing her AP degree in Multimedia Design. When she
+                chose content making specialization in the 3rd semester, she found her
+                passion for graphic design. As a creative person, she knew this would be
+                the best path to go with.
+            </p><br>
+            <p>
+                After some time collaborating with other designers, Ioana decided
+                to establish her own start-up company. She created her portfolio
+                and started sharing her work on various platforms. She built her brand
+                on authenticity, quality over quantity and respecting the rules of design.
+                The main value which represents her brand the best is “Less is more”.
+            </p><br>
+            <p>
+                Right now, Ioana is focusing on her skills to become a professional desginer. Additionally, she is
+                concentrating on building her website and YouTube channel to give
+                useful tips for beginners. By expanding her network, opens up
+                to more collaborations.
+            </p>
+        </div>
+        <img src="media/start-image.jpg" class="rellax" data-rellax-speed="5">
+    </div>
+
+    <div class="pic-section" style="background-image: url(media/background1.jpg)">
+        <div class="title-background rellax" data-rellax-speed="5">
+            <h2 class="section-title">A day as a designer</h2>
+        </div>
+    </div>
+
+    <div class="text-section">
+        <div class="text-container">
+            <p>
+                On days when she works on her projects for clients, Ioana plans her meetings and questions for clients. Because she
+                works alone, she is precise with her communication. Ioana makes sure she understands what exactly does her client want, so she can make the product unique and personalized. She communicates with her client throughout the process, therefore she delivers an exceptional product.
+            </p><br>
+            <p>
+                On other days, Ioana spends time expanding her set of skills and knowledge. She browses other designers' work to take inspiration. She also makes her marketing calendars where she plans the work ahead. She makes
+                the seasonal content ahead and the calendar helps her to remind when she uploads. She also keeps herself
+                busy by making video content, such as beginner tutorials.
+            </p><br>
+            <p>
+                The day as a designer is busy and full of work. Ioana’s determination and passion for the graphic design guarantees that she delivers on her promises.
+            </p>
+        </div>
+        <div class="text-container2">
+            <h3>Ioana works with:</h3>
+        </div>
+        <div id="content"></div>
+
+    </div>
+
+    <div class="pic-section" style="background-image: url(media/background2.jpeg)">
+        <div class="title-background">
+            <h2 class="section-title">What the future holds</h2>
+        </div>
+    </div>
+
+    <div class="text-section">
+        <div class="text-container">
+            <p>
+                The creator of IC.Design thinks that it is more difficult to become successful in this market if
+                you are a woman. Reasoning behind it is that you need to prove what you are capable of, including that
+                you have great skills as well. And even though Ioana knows that it can be challenging sometimes, her plan for the future remain big and ambitious.
+            </p><br>
+            <p>
+                One of her biggest goals is to finish her studies and to become a professional graphic designer, to improve
+                her skills, the quality of her products and to make a living out of it as well. This goal is also accompanied by a desire to expand her business. Which means having more clients and expanding the circle of talented
+                people she works with.
+                <br><br>IC.Design now focuses more on the food market; therefore, the creator of this
+                startup really hopes to get more customers from this field. Another dream that motivates her is creating YouTube tutorials. Ioana wants to teach young and older people how to use Adobe apps
+                and create logos, illustrations, edit photos etc.<br> IC.Design still has a lot to accomplish but with great
+                motivation and willingness its creator will reach these goals in no-time.
+            </p>
+        </div>
+    </div>
+
+    <div class="video-section">
+        <video width="960" height="540" controls class="myVideo" id="myVideo">
+            <source src="media/video.mp4" type="video/mp4">
+            Your browser does not support playing videos.
+        </video>
+        <div class="video-buttons">
+            <button class="button" onclick="playVid()">Play</button>
+            <button class="button" onclick="pauseVid()">Pause</button>
+            <button class="button" id="mute">Mute</button>
+            <button class="button" id="unmute">Unmute</button>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact Ioana</h2>
+        <div class="contact-content">
+            <div class="contact-left">
+                <form action="">
+
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+                    <label for="lname">Email address</label>
+                    <input type="email" id="lname" name="lastname" placeholder="Your email">
+
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+
+                    <input type="submit" value="Send">
+
+                </form>
+            </div>
+            <div class="contact-right">
+                <a href="https://www.instagram.com/ioanaiooana/">Instagram</a>
+                <a href="mailto:ioanacodrean@yahoo.com">Email</a>
+                <a href="https://www.facebook.com/ioana.iooana.37">Facebook</a>
+                <a href="https://www.youtube.com/channel/UCACSXDGXLPYOWmA5j83D2AQ">Youtube</a>
+                <a href="tel:123-456-7890">Phone</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
