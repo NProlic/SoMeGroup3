@@ -44,10 +44,12 @@ label {
     vertical-align: middle;
     padding: 25px 60px;
     overflow: hidden;
-    position: relative;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     position: absolute;
+    margin-top: -82px;
+    z-index: 2;
 }
 
 .nav-right {
@@ -119,10 +121,10 @@ label {
     padding-top: 14px;
     padding-bottom: 12px;
     overflow: hidden;
-    position: relative;
+    position: sticky;
     display: flex;
-    position: absolute;
     background-color: #fff;
+    z-index: 1;
 }
 
 .lowitems {
@@ -136,4 +138,26 @@ label {
     font-size: 18px;
     letter-spacing: 0.5px;
     display: flex;
+}
+
+h3 {
+    color: #fff;
+    
+}
+.content-div {
+    visibility: hidden;
+    background-color: #fff;
+    width: 40vw;
+    height: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 85px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
