@@ -32,10 +32,11 @@ html {
     vertical-align: middle;
     padding: 25px 60px;
     overflow: hidden;
-    position: relative;
     display: flex;
     justify-content: space-between;
     position: absolute;
+    z-index: -2;
+    margin-top: -82px;
 }
 
 .nav-right {
@@ -108,10 +109,11 @@ html {
     padding-top: 14px;
     padding-bottom: 12px;
     overflow: hidden;
-    position: relative;
     display: flex;
     position: absolute;
     background-color: #fff;
+    position: sticky;
+    z-index: 1;
 }
 
 .lowitems {
@@ -127,5 +129,24 @@ html {
     display: flex;
 }
 
+.header{
+    margin-bottom: 20px;
+}
+
+.newsfeed{
+    width: 60%;
+    height: 400px;
+    background-color: white;
+    padding-top: ;
+    margin: 0 auto;
+}
+
+.test{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    
+}
 
 
