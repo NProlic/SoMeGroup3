@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>IC.Design | Login </title>
+</head>
+
+<body class="body">
+<section class="loginpage">
+    <div class="tagline">
+    <h1 class="admin">IC.Design</h1> <h1 class="admin2">.admin</h1>
+        </div>
+   <!---
+    <img src="images/loginpage.png" class="background">
+-->
+    <img src="images/127446654_2945791395653981_5817980391354314101_o.jpeg" class="iona" alt="iona">
+    </section>
+<section class="site">
+		
+		<main id="content" class="main_content"><div class="loginform">
+             <form class="form">
+                <h2 class="form_label"><u class="form_label_text">LOG IN</u></h2><br>
+               
+            </form>
+			 <div flex_container>
+                 <h3 class="h3">Username</h3>
+			<form name="login" class="name">
+              
+			<input type="text" name="name" size="17" onkeydown="if(event.keyCode==13) event.keyCode=9;" class="formclass" placeholder=""><br>
+			<h3 class="h3">Password</h3>
+			<input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) event.keyCode=9;" class="formclass" placeholder=""><br><br>
+                
+			<input type="button" value="Log in" onclick="javascript:TheLogin(this.form)" class="button">
+			</form>
+                 </div>
+			</div>
+		</main>
+
+    </section>
+    <script type="text/javascript">
+        // PASSWORD PROTECTION SCRIPT        
+        function TheLogin() {
+        var password = '1111';
+        var navn = 'david';    
+        if (this.document.login.pass.value == password && this.document.login.name.value == navn) {
+        //    window.alert("Congratulations, you're in");
+            top.location.href="subpages/main.html";
+        }
+        else {
+            if (this.document.login.pass.value != password && this.document.login.name.value != navn)
+                window.alert("Not a valid code.");
+            // not recommended but possible it is, below:
+            else if (this.document.login.pass.value != password)
+                window.alert("Name is ok, but wrong password.");
+            else if (this.document.login.name.value != navn)
+                window.alert("You have the password all right, however the username is wrong.");              
+          }
+        }
+    </script>
+   
+</body>
+
+</html>
