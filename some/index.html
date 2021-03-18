@@ -10,48 +10,27 @@
 
 <body>
 <section class="loginpage">
-    <div class="container">
+    
     <img src="images/loginpage.png" class="background">
-    <form class="form">
+
+    </section>
+<section class="site">
+		
+		<main id="content" class="main_content"><div class="loginform">
+             <form class="form">
                 <h2 class="form_label"><u class="form_label_text">IC.Design</u></h2><br>
                
             </form>
-    
-    </div>
-    <div class="container">
-  <form action="/action_page.php">
-    <label for="usrname">Username</label>
-    <input type="text" id="usrname" name="usrname" required>
-
-    <label for="psw">Password</label>
-    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
-    
-    <a href="subpages/main.html">click</a>
-  </form>
-</div>
-    </section>
-<section class="site">
-		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-		<header class="masthead">
 			
-			<p class="site-title">login</p>
-			<p class="site-description"></p>
-		</header>
-		<!-- .masthead -->
-		<h1 class="page-title">Password protected</h1>
-		<main id="content" class="main-content"><div style="text-align: center; margin: 0 auto; color: #0000FF; font: normal 16px arial, sans-serif;">
-			NAME:<br>
-			<form name="login" style="margin: 5px 0px 0px 0px;">
-			<input type="text" name="name" size="17" onkeydown="if(event.keyCode==13) event.keyCode=9;" style="width: 130px;"><br>
-			<br>PASSWORD:<br>
-			<input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) event.keyCode=9;" style="width: 130px;"><br><br>
-			<input type="button" value="Login" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
+			<form name="login" class="name">
+                <div flex_container>
+			<input type="text" name="name" size="17" onkeydown="if(event.keyCode==13) event.keyCode=9;" class="formclass" placeholder="Username"><br>
+			<h3 class="h3"></h3>
+			<input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) event.keyCode=9;" class="formclass" placeholder="Password"><br><br>
+                </div>
+			<input type="button" value="Login" onclick="javascript:TheLogin(this.form)" class="button">
 			</form>
 			</div>
-			<ul class="schedule-list">
-				<li>
-				</li>
-			</ul>
 		</main>
 
     </section>
@@ -61,7 +40,7 @@
         var password = '1111';
         var navn = 'david';    
         if (this.document.login.pass.value == password && this.document.login.name.value == navn) {
-            window.alert("Congratulations, you're in");
+        //    window.alert("Congratulations, you're in");
             top.location.href="subpages/main.html";
         }
         else {

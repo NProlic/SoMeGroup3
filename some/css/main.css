@@ -20,7 +20,7 @@ html {
     background-color: #D78E8A;
 }
 
-.a{
+.a {
     text-decoration: none;
 }
 
@@ -129,24 +129,53 @@ html {
     display: flex;
 }
 
-.header{
+.header {
     margin-bottom: 20px;
 }
 
-.newsfeed{
-    width: 60%;
-    height: 400px;
+.newsfeed {
+    width: 70%;
+    height: 100%;
     background-color: white;
-    padding-top: ;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
-.test{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 25%;
+.test {
+    width: 100%;
+    padding-top: 30px;
+
     
+
+}
+
+.our {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 
+.designguide {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.newsfeedcontent {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    margin: 2%;
+}
+
+.linkedinpost{
+    margin-left: 22%;
+    margin-right: 20%;
+    padding: 20px;
+    border: 5px solid #0077b5;
+}
