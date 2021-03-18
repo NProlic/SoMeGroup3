@@ -36,10 +36,14 @@ container{
 */
 .form_label_text{
     text-decoration: none;
-    color: #E4B5C1;
+    color: #E38A86;
     font-size: 200%;
-    margin-left: 7%;
+    margin-left: 12%;
     text-shadow: 2px 2px 4px #E4B5C1;
+    float: left;
+    margin-top: 10%;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
 
@@ -59,9 +63,13 @@ font: normal 16px arial, sans-serif;
 .formclass{
     width: 80%;
     height: 50px;
-    border-radius: 30%;
-    background-color: #FAD7D6;
+    border-radius: 10px;
+    border: 2px solid #E38A86 ;
     
+}
+
+.flex_container{
+ margin: 10px;
 }
 
  input::placeholder{
@@ -72,15 +80,21 @@ font: normal 16px arial, sans-serif;
 
 .button{
      width: 80%;
-    height: 70px;
-    border-radius: 70%;
-    background-color: #FAD7D6;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #E38A86;
+    margin-top: 3%;
+}
+
+.button:hover{
+    color: white;
+    background-color: #E0A9A7;
     
 }
 
 input[type=button]{
-    color: #9C7582;
-    font-size: 150%;
+    color: white;
+    font-size: 120%;
 }
 
 
@@ -88,25 +102,54 @@ input[type=button]{
     top: 20%;
     position: absolute;
     left:7%;
-    background-color: white;
-    border-radius: 30%;
-    height: 60%;
-    width: 25%;
-}
-
-.h3{
-    color:#9C7582;
+    background-color: #F7F5F5;
+    border-radius: 5%;
+    height: 50%;
+    width: 26%;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    
     
 }
 
+.h3{
+    color:#E38A86;
+    margin-left: -50%;
+    padding-top: 10px;
+    font-weight: 400
+    
+}
+
+.iona{
+    width: 35%;
+    
+    float: right;
+    margin-right: 15%;
+    border-radius: 5%;
+    background-color: white;
+    border: 5px solid white;
+}
 
 
+.body{
+    background-color: #E28985;
+}
 
+.admin{
+    color: white;
+}
 
+.admin2{
+    color: #F5DDDB;
+}
 
-
-
-
+.tagline{
+    display: flex;
+    margin-top: 9%;
+    margin-left: 17%;
+}
 
 
 
