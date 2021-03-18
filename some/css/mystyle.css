@@ -1,0 +1,160 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* Start your code below */
+
+.background{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+container{
+    position: relative;
+}
+
+
+/*
+.form_label{
+    background-color: white;
+    border-radius: 30%;
+    height: 60%;
+    width: 25%;
+    
+}
+*/
+.form_label_text{
+    text-decoration: none;
+    color: #E38A86;
+    font-size: 200%;
+    margin-left: 12%;
+    text-shadow: 2px 2px 4px #E4B5C1;
+    float: left;
+    margin-top: 10%;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+
+/* LOGIN */
+.main_content{
+    text-align: center;
+margin: 0 auto;
+color: #0000FF;
+font: normal 16px arial, sans-serif;
+}
+
+.name{
+   margin: 5px 0px 0px 0px; 
+    color: #9C7582;
+}
+
+.formclass{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #E38A86 ;
+    
+}
+
+.flex_container{
+ margin: 10px;
+}
+
+ input::placeholder{
+    color: #9C7582;
+     text-align: center;
+     font-size: 150%;
+}
+
+.button{
+     width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #E38A86;
+    margin-top: 3%;
+}
+
+.button:hover{
+    color: white;
+    background-color: #E0A9A7;
+    
+}
+
+input[type=button]{
+    color: white;
+    font-size: 120%;
+}
+
+
+.loginform{
+    top: 20%;
+    position: absolute;
+    left:7%;
+    background-color: #F7F5F5;
+    border-radius: 5%;
+    height: 50%;
+    width: 26%;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.h3{
+    color:#E38A86;
+    margin-left: -50%;
+    padding-top: 10px;
+    font-weight: 400
+    
+}
+
+.iona{
+    width: 35%;
+    
+    float: right;
+    margin-right: 15%;
+    border-radius: 5%;
+    background-color: white;
+    border: 5px solid white;
+}
+
+
+.body{
+    background-color: #E28985;
+}
+
+.admin{
+    color: white;
+}
+
+.admin2{
+    color: #F5DDDB;
+}
+
+.tagline{
+    display: flex;
+    margin-top: 9%;
+    margin-left: 17%;
+}
+
+
+
+
+
+
+
+
