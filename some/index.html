@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <title>IC.Design | Login </title>
 </head>
 
@@ -51,7 +52,8 @@
         }
         else {
             if (this.document.login.pass.value != password && this.document.login.name.value != navn)
-                window.alert("Not a valid code..");
+                window.alert("Not a valid code.");
+          
             // not recommended but possible it is, below:
             else if (this.document.login.pass.value != password)
                 window.alert("Name is ok, but wrong password.");
